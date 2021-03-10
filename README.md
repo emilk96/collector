@@ -16,5 +16,5 @@ python3 collector.py
 
 ## Important information 
 - This setup was tested on a Raspberry Pi 4 running Raspberry Pi OS.
-- Using keyboard listener to gather barcode scanner data sometimes results in a runtime error, because the keyboard listener fails to stop freezing the application. Maybe use second thread for keyboard listener that can be stopped from the outside. 
+- Using keyboard listener to gather barcode scanner data sometimes results in a runtime error when the keyboard listener fails to stop, thus freezing the application. Maybe use second thread for keyboard listener that can be stopped from the outside. 
 - The stepper motor GPIO python package in `?` was modified to decrease step-size.
