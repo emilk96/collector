@@ -245,7 +245,7 @@ class StartPage(tk.Frame):
                             command=lambda: controller.show_frame("PageThree"))
         button5 = tk.Button(self, text="Set Motor 2", width=20, height=5,bg='white', fg='white',
                             command=lambda: controller.show_frame("PageFour"))
-        button6 = tk.Button(self, text="Demo", width=20, height=5,bg='#4974a5' fg='white',
+        button6 = tk.Button(self, text="Demo", width=20, height=5,bg='#4974a5', fg='white',
                             command=lambda: controller.show_frame("PageFive"))
         button7 = tk.Button(self, text="--EXIT--", width=20, height=3, bg='black', fg='white',
                             command=lambda: controller.refresh())
